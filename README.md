@@ -38,6 +38,7 @@ All the development and testing was runned over an operating system Ubuntu 20.04
 
 # Execution
 
+```fine```
 
 The console can be run both interactively and no-interactively.
 
