@@ -53,7 +53,7 @@ EOF help guit
 (hbnb)
 (hbnb)
 (hbnb) quit
-$`
+$```
 
 
 
