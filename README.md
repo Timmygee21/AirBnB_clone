@@ -2,41 +2,29 @@
 AirBnB clone - The console
 
 #Contributors
-Bosworth Onyema
 
-Oloruntola Timothy
+* Bosworth Onyema
+* Oloruntola Timothy
 
 # Description
 This project is a complete web application, intergrating database storage, a backend API, and front-end interfacing in a clone of AirBnB.
-
 This project currently only implements the backend console.
 
-![AirBnb](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230310%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230310T063110Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=87f76efd2438e71e096d842711979312895d2910bf094ba705aafa2dd12cee7c)
-
-
- # The console
-
-- create your data model
-- manage (create, update, destroy, etc) objects via a console / command interpreter
-- store and persist objects to a file (JSON file)
+# The console
+* Create your data model
+* Manage (create, update, destroy, etc) objects via a console / command interpreter
+* Store and persist objects to a file (JSON file)
 
 # Storage
 All the classes are handled by the Storage engine in the '''FileStorage''' Class.
 
 Technologies Used
-
 Ubuntu
-
 Bash
-
 Python
-
 Vim
-
 Styles guideline
-
 pycodestyle (version 2.7.*)
-
 PEP8
 
 
