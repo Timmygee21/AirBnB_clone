@@ -17,7 +17,7 @@ This project currently only implements the backend console.
 * Store and persist objects to a file (JSON file)
 
 # Storage
-All the classes are handled by the Storage engine in the ```FileStorage``` Class.
+All the classes are handled by the Storage engine in the `FileStorage``` Class.
 
 # Technologies Used
 
@@ -27,7 +27,7 @@ All the classes are handled by the Storage engine in the ```FileStorage``` Class
 
 *```Python```
 
-*```Vim```
+* `Vim`
 
 Styles guideline
 
@@ -43,7 +43,7 @@ The console can be run both interactively and no-interactively.
 
 In interactive mode, run the file `console.py` by itself:
 
-```
+``
 $  ./console.py
 (hbnb) help
 
