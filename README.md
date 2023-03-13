@@ -18,15 +18,16 @@ This project currently only implements the backend console.
 # Storage
 All the classes are handled by the Storage engine in the ```FileStorage``` Class.
 
-Technologies Used
-Ubuntu
-Bash
-Python
-Vim
-Styles guideline
-pycodestyle (version 2.7.*)
-PEP8
+#Technologies Used
 
+*```Ubuntu```
+*```Bash```
+*```Python```
+*```Vim```
+
+Styles guideline
+*Pycodestyle (version 2.7.*)
+*PEP8
 
 All the development and testing was runned over an operating system Ubuntu 20.04 LTS using Python 3.8.3 programming language. The editors used were VIM and VSCode. Control version using Git.
 Persistency is really important for a web application. It means: every time your program is executed, it starts with all objects previously created from another execution. Without persistency, all the work done in a previous execution won’t be saved and will be gone.
