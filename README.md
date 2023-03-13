@@ -59,3 +59,22 @@ $
 To quit the console, enter the command `quit`, or input an EOF signal (`control+D`).
 
 In non-interactive mode, pipe any command(s) into an execution of file `console.py` at the command line.
+
+```
+$ echo "help" | ./console.py
+(hbnb)
+
+Document commands (types help <topic></topic>):
+===============================================
+EOF help quit
+(hbnb)
+$
+$ cat test_help | ./console.py
+(hbnb)
+$
+```
+# Testing
+
+All the tests are defined in the tests folder.
+
+# Documentation
