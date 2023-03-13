@@ -55,6 +55,8 @@ EOF help guit
 (hbnb) quit
 $```
 
+
+
 To quit the console, enter the command ```quit```, or input an EOF signal (```control+D```).
 
 In non-interactive mode, pipe any command(s) into an execution of file ```console.py``` at the command line.
