@@ -54,6 +54,4 @@ EOF help quit
 (hbnb)
 (hbnb)
 (hbnb) quit
-$
-
-\n fine
+$ \nfine
