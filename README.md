@@ -78,3 +78,6 @@ $
 All the tests are defined in the tests folder.
 
 # Documentation
+
+* Modules:
+`python3 -c 'print(__import__("my_module").__doc__)'`
