@@ -21,12 +21,17 @@ All the classes are handled by the Storage engine in the ```FileStorage``` Class
 #Technologies Used
 
 *```Ubuntu```
+
 *```Bash```
+
 *```Python```
+
 *```Vim```
 
 Styles guideline
+
 *Pycodestyle (version 2.7.*)
+
 *PEP8
 
 All the development and testing was runned over an operating system Ubuntu 20.04 LTS using Python 3.8.3 programming language. The editors used were VIM and VSCode. Control version using Git.
