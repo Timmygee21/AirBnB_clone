@@ -43,11 +43,12 @@ The console can be run both interactively and no-interactively.
 
 In interactive mode, run the file `console.py` by itself:
 
-`$ ./console.py
+```
+$ ./console.py
 (hbnb) help
 
- Document commands (typehelp <topic></topic>):
- =============================================
+Document commands (typehelp <topic></topic>):
+=============================================
 EOF help guit
 
 (hbnb)
