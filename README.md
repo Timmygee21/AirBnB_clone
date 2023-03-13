@@ -80,4 +80,96 @@ All the tests are defined in the tests folder.
 # Documentation
 
 * Modules:
+
 `python3 -c 'print(__import__("my_module").__doc__)'`
+
+* Classes:
+
+`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`
+
+* Functions (inside and outside a class):
+
+`python3 -c 'print(__import__("my_module").my_function.__doc__)'`
+
+and
+
+`python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`
+
+# Python Unit Tests
+
+* unittest module
+
+* File extinsion `.py`
+* Files and folders start with `test_` 
+* Organization:for `models/base.py`, 
+* unit tests in: `tests/test_models/test_base.py` 
+* Execution command: `python3 -m unittest discocer tests`
+* or: `python3 -m unittest tests/test_models/test_base.py`
+
+# run test in interactive mode
+
+`echo "python3 -m unittest discover tests" |bash`
+
+# run test in non-interactive mode
+To run the tests in non-interactive mode, and discover all the test, you can use the command:
+
+`python3 -m unittest discover tests`
+
+# Usage
+
+* Start the console in interactive mode:
+
+`$ ./console.py
+(hbnb)`
+
+* Use help to see the available commands:
+
+```
+(hbnb) help
+
+Documented commands (type help <topic></topic>):
+================================================
+EOF all count create destroy help quit show update
+
+(hbnb)
+```
+* Quit the console:
+`(hbnb) quit
+$`
+
+###Console Commands
+
+The commands are displayed in the following format
+
+* Command / usage / example with output*
+
+Create a new instance of a given class. The class' ID is printed and the instance is saved to the file file.json.
+
+*`create <class>`
+
+`(hbnb) create BaseModel
+6cfb47c4-a434-4da7-ac03-2122624c3762
+(hbnb)`
+
+* Show
+
+`show <class> <id>`
+
+
+`(hbnb) show BaseModel 6cfb47c4-a434-4da7-ac03-2122624c3762
+[BaseModel] (a) [BaseModel]
+(6cfb47c4-a434-4da7-ac03-2122624c3762) {'id': '6cfb47c4-a434-4da7-ac03-2122624c3762', 'created_at': datetime.datetime(2022, 8, 29, 3, 28, 45, 571360), 'updated_at': datetime.dayetime(2022, 8, 28, 45, 571360)}
+(hbnb)`
+
+* Destroy
+
+	* Delets an instance of a given class with a given ID.* > Update the file.json
+
+*`(hbnb) create User
+0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+(hbnb) destroy User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+(hbnb) show User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+** no instance found **
+(hbnb)`
+
+* all
