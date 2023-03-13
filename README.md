@@ -53,7 +53,7 @@ EOF help guit
 (hbnb)
 (hbnb)
 (hbnb) quit
-$\`
+$```
 
 
 
@@ -95,6 +95,7 @@ and
 
 ```python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'```
 
+```fine
 
 
 # Python Unit Tests
