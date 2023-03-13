@@ -17,15 +17,15 @@ This project currently only implements the backend console.
 * Store and persist objects to a file (JSON file)
 
 # Storage
-All the classes are handled by the Storage engine in the `FileStorage``` Class.
+All the classes are handled by the Storage engine in the `FileStorage` Class.
 
 # Technologies Used
 
-*```Ubuntu```
+* `Ubuntu`
 
-*```Bash```
+* `Bash`
 
-*```Python```
+* `Python`
 
 * `Vim`
 
