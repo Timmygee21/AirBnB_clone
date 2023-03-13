@@ -1,7 +1,7 @@
 # AirBnB_clone
 AirBnB clone - The console
 
-#Contributors
+# Contributors
 
 * Bosworth Onyema
 * Oloruntola Timothy
@@ -18,7 +18,7 @@ This project currently only implements the backend console.
 # Storage
 All the classes are handled by the Storage engine in the ```FileStorage``` Class.
 
-#Technologies Used
+# Technologies Used
 
 *```Ubuntu```
 
@@ -36,7 +36,7 @@ Styles guideline
 
 All the development and testing was runned over an operating system Ubuntu 20.04 LTS using Python 3.8.3 programming language. The editors used were VIM and VSCode. Control version using Git.
 
-#Execution
+# Execution
 
 The console can be run both interactively and no-interactively.
 
@@ -73,17 +73,17 @@ $ cat test_help | ./console.py
 (hbnb)
 $```
 
-#Testing
+# Testing
 
 All the tests are defined in the ```tests``` folder.
 
-#Documentation
+# Documentation
 
 * Modules:
 
 ```python3 -c 'print(__import__("my_module").__doc__)'```
 
-*Classes:
+* Classes:
 
 ```python3 -c 'print(__import__("my_module").MyClass.__doc__)'```
 
@@ -95,19 +95,21 @@ and
 
 ```python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'```
 
-#Python Unit Tests
+
+
+# Python Unit Tests
 
 . unittest module
-. ile extinsion .py
- iles and folders start with ```test_``` *Organization:for ```models/base.py```, unit tests in: ```tests/test_models/test_base.py``` *Execution command: ```python3 -m unittest discocer tests```
+. file extinsion .py
+. files and folders start with ```test_``` *Organization:for ```models/base.py```, unit tests in: ```tests/test_models/test_base.py``` *Execution command: ```python3 -m unittest discocer tests```
 
  r: python3 -m unittest tests/test_models/test_base.py
 
-#run test in interactive mode
+# run test in interactive mode
 
 ```echo "python3 -m unittest discover tests"``` |bash
 
-#run test in non-interactive mode
+# run test in non-interactive mode
 
 To run the tests in non-interactive mode, and discover all the test, you can use the command:
 
