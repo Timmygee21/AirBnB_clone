@@ -29,7 +29,6 @@ All the classes are handled by the Storage engine in the ```FileStorage``` Class
 *```Vim```
 
 Styles guideline
-
 *Pycodestyle (version 2.7.*)
 
 *PEP8
