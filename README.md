@@ -38,6 +38,8 @@ All the development and testing was runned over an operating system Ubuntu 20.04
 
 # Execution
 
+```fine
+
 The console can be run both interactively and no-interactively.
 
 In interactive mode, run the file console.py by itself:
@@ -95,7 +97,7 @@ and
 
 ```python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'```
 
-```fine
+
 
 
 # Python Unit Tests
