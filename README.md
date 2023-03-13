@@ -41,7 +41,7 @@ All the development and testing was runned over an operating system Ubuntu 20.04
 
 The console can be run both interactively and no-interactively.
 
-In interactive mode, run the file ```console.py by itself:
+In interactive mode, run the file `console.py` by itself:
 
 ```
 $  ./console.py
