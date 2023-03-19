@@ -2,12 +2,24 @@
 # AirBnB_clone
 AirBnB clone - The console
 
+# Project Overview
+
+* AirBnB Clone (the console) is the first in the serious of projects to wards a full stack AirBnB web application. This repo contains a console application that can be used to manage the various instances of class used in the AirBnB web application.
+
+![Overview](https://github.com/Sado1111/AirBnB_clone/blob/main/docs/AirBnB_Console_Project_Structure.jpg)
+
+
 # Project File Organization
 
 * This project is organized as shown in the diagram below. In this hierarchal structure, all the models are stored in the models folder while the tests are stored in the tests folder
 
 ![AirBnb](https://github.com/Sado1111/AirBnB_clone/blob/main/docs/AirBnB_Console_Project_Structure.jpg)
 
+
+# Supported Commands
+
+* This console application supports a number of commands. This commands can be run in both interactive and non-interactive modes
+![both interative and non-iterative command](https://github.com/Sado1111/AirBnB_clone/blob/main/docs/AirBnB_Conosle_Supported_Commands.jpg)
 
 # Contributors
 
@@ -144,7 +156,7 @@ EOF all count create destroy help quit show update
 `(hbnb) quit
 $`
 
-###Console Commands
+# Console Commands
 
 The commands are displayed in the following format
 
