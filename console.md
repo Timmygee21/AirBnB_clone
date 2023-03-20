@@ -1,4 +1,4 @@
-# [[OBuilding the console
+# Building the console
 
 Scrapbook to organize thoughts as we build out the AirBnB command line interpreteter.
 
