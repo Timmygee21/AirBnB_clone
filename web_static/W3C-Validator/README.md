@@ -19,7 +19,7 @@ Based on 2 APIs:
 
 Simple file:
 
-`./w3c_validator.py index.html`
+```./w3c_validator.py index.html```
 
 Multiple files:
 
